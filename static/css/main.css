@@ -12,9 +12,14 @@ body{
     line-height: 1.5;
     font-weight: 300;
 }
+h2{
+    font-weight:200 ;
+}
+footer{
+    background-color:#e6e6e6;
+}
 
 .pagina-wrapper {
-
     position: relative;
     z-index: 5;
     background-color: #fff;
@@ -30,7 +35,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: -100px;
-
+    padding: 0 13.7%;
 }
 #header{
     margin: 60px 0;
@@ -44,7 +49,7 @@ body{
 .navigatie {
     min-width: calc(66.6666% - 100px);
     flex: 1;
-margin-left: 100px;
+    margin-left: 100px;
 }
 .navigatie ul{
     margin-left: 0;
@@ -58,7 +63,7 @@ margin-left: 100px;
     color: #003cff;
     cursor:pointer;
 }
-
+ 
 .logo{
     min-width: calc(33.3333% - 100px);
     background-color:transparent;
@@ -90,8 +95,122 @@ display: block;
     box-sizing: inherit;
 }
 
+
+
+
+
+
+
 .pagina-footer{
-    background: #E6E6E6;
-padding-bottom: 60px;
-border-top: 1px solid #e6e6e6;
+    
+    padding-bottom: 60px;
+    border-top: 1px solid #e6e6e6;
+    width: 60rem;
+    margin: 0 auto;
+    max-width: 100%;
 }
+.footer-socialmedia {
+    padding: 48px 0px;
+    background: #fff;
+}
+
+.svg{
+    width: 20px;
+    padding-left: 0.5rem;
+    
+}
+
+.sociallink{
+max-width: 20px;
+font-size: 12px;
+text-align: center;
+margin-left: 4rem;
+margin-right: 4rem;
+text-decoration: none;
+}
+
+.sociallink:hover{
+    text-decoration: none;
+    filter: invert(16%) sepia(100%) saturate(7491%) hue-rotate(233deg) brightness(102%) contrast(107%);
+}
+.isrow{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 20px;
+}
+
+.gapless{
+    margin-left: 0;
+    margin-top: 0;
+}
+.mailchimp{
+    padding-top: 60px;
+    margin-left: 7rem;
+}
+
+.mailwrapper{
+    border: 1px solid rgba(0,0,0,0.2);
+display: flex;
+align-items: center;
+padding-right: 12px;
+}
+.form-item{
+    margin-bottom: 16px;
+}
+
+.mailinform .mailwrapper .form-item input {
+    background: none;
+    border: none;
+}
+input, textarea, select {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    
+    font-size: 16px;
+    font-weight: normal;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid rgba(17,17,19,0.1);
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 8px;
+    color: rgba(17,17,19,0.8);
+}
+.footer-mailchimp .mailchimp-wrapper input[type="submit"] {
+    opacity: 0;
+    -webkit-transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+    -ms-transition: opacity .35s ease-in-out;
+    -o-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out;
+    font-size: 16px;
+    color: #003cff;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    background: none;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    width: auto;
+}
+
+
+#top{
+position: fixed;
+display: none;
+bottom: 50px;
+left: calc(50% - 55px);
+z-index: 600;
+font-size: 120%;
+border-bottom: 2px solid black;
+text-decoration: none;
+margin-top: 40rem;
+
+
+}
+#top a{
+    text-decoration: none;
+}
+

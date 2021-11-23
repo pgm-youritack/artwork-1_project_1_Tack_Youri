@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
 html{
     font-size: 21px;
 }
@@ -10,32 +15,41 @@ body{
 
 .pagina-wrapper {
 
-    background-color: transparent;
     position: relative;
-   margin: 0 auto;
-   width: 50rem;
-   max-width: 100%;
-   
+    z-index: 5;
+    background-color: #fff;
+    padding-bottom: 40px;
+    min-height: 100vh;
+    width: 60rem;
+    margin: 0 auto;
+    max-width: 100%;
+   }
 
-}
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-margin-left: -100px;
+    margin-left: -100px;
+
 }
 #header{
     margin: 60px 0;
-    background-color: transparent;
+    background: transparent;
 }
-.navigatie{
+#header .container{
+    
+        align-items: center;
+}
+
+.navigatie {
     min-width: calc(66.6666% - 100px);
-    background-color: gray;
+    flex: 1;
+margin-left: 100px;
 }
 .navigatie ul{
     margin-left: 0;
-margin-bottom: 0;
-list-style: none;
+    margin-bottom: 0;
+    list-style: none;
 }
 .navigatie ul li a{
     font-weight: 400;
@@ -47,7 +61,7 @@ list-style: none;
 
 .logo{
     min-width: calc(33.3333% - 100px);
-    background-color: gray;
+    background-color:transparent;
     flex: 1;
 margin-left: 100px;
 }
@@ -76,4 +90,8 @@ display: block;
     box-sizing: inherit;
 }
 
-
+.pagina-footer{
+    background: #E6E6E6;
+padding-bottom: 60px;
+border-top: 1px solid #e6e6e6;
+}

@@ -1,0 +1,79 @@
+html{
+    font-size: 21px;
+}
+body{
+    font-family: "Moderat","Roboto","Segoe UI",Helvetica,Arial,sans-serif;
+    color: #000;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.pagina-wrapper {
+
+    background-color: transparent;
+    position: relative;
+   margin: 0 auto;
+   width: 50rem;
+   max-width: 100%;
+   
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+margin-left: -100px;
+}
+#header{
+    margin: 60px 0;
+    background-color: transparent;
+}
+.navigatie{
+    min-width: calc(66.6666% - 100px);
+    background-color: gray;
+}
+.navigatie ul{
+    margin-left: 0;
+margin-bottom: 0;
+list-style: none;
+}
+.navigatie ul li a{
+    font-weight: 400;
+}
+.navigatie li:hover{
+    color: #003cff;
+    cursor:pointer;
+}
+
+.logo{
+    min-width: calc(33.3333% - 100px);
+    background-color: gray;
+    flex: 1;
+margin-left: 100px;
+}
+
+
+.logo h1{
+    font-family: "Moderat","Roboto","Segoe UI",Helvetica,Arial,sans-serif;
+font-weight: 400;
+text-rendering: optimizeLegibility;
+color: #000;
+line-height: 1.2;
+height: 67.2px;
+width: 117.6px;
+display: block;
+}
+.logo a{
+    text-decoration: none;
+    color: transparent;
+    display: block;
+    border: none;
+    background-image: url(/static/img/logo/logo.png);
+    color: transparent;
+    background-size: 117.6px 67.2px;
+    height: 67.2px;
+    width: 117.6px;
+    box-sizing: inherit;
+}
+
+

@@ -12,13 +12,27 @@ body{
     line-height: 1.5;
     font-weight: 300;
 }
-h2{
-    font-weight:200 ;
+p{
+    font-size: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Moderat","Roboto","Segoe UI",Helvetica,Arial,sans-serif;
+font-weight: 200;
+text-rendering: optimizeLegibility;
+font-size: 20;
+color: #000;
+line-height: 1.2;
 }
 footer{
     background-color:#e6e6e6;
 }
-
+img {
+    max-width:100%;
+}
+iframe{
+    max-width: 100%;
+    margin: 2rem;
+}
 .pagina-wrapper {
     position: relative;
     z-index: 5;
@@ -34,8 +48,17 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: -100px;
-    padding: 0 13.7%;
+    padding: 5rem;
+    
+
+}
+.containerflex{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+       width: 60rem;
+    margin: 0 auto;
+    max-width: 100%;
 }
 #header{
     margin: 60px 0;
@@ -45,6 +68,7 @@ footer{
     
         align-items: center;
 }
+
 
 .navigatie {
     min-width: calc(66.6666% - 100px);
@@ -56,12 +80,18 @@ footer{
     margin-bottom: 0;
     list-style: none;
 }
-.navigatie ul li a{
+
+.navigatie a{
     font-weight: 400;
+    text-decoration: none;
+    color: inherit;
 }
-.navigatie li:hover{
+.navigatie li a:hover{
     color: #003cff;
-    cursor:pointer;
+}
+.selected{
+    color: #003cff;
+    text-decoration: underline;
 }
  
 .logo{
@@ -105,19 +135,23 @@ display: block;
     
     padding-bottom: 60px;
     border-top: 1px solid #e6e6e6;
-    width: 60rem;
-    margin: 0 auto;
-    max-width: 100%;
+
 }
 .footer-socialmedia {
     padding: 48px 0px;
     background: #fff;
+   margin-left: 15rem;
+ 
+
 }
 
 .svg{
     width: 20px;
     padding-left: 0.5rem;
     
+}
+#socialbg{
+    background-color: #fff;
 }
 
 .sociallink{
@@ -147,6 +181,7 @@ margin-left: 20px;
 .mailchimp{
     padding-top: 60px;
     margin-left: 7rem;
+ 
 }
 
 .mailwrapper{
@@ -155,8 +190,13 @@ display: flex;
 align-items: center;
 padding-right: 12px;
 }
+
+
 .form-item{
-    margin-bottom: 16px;
+    width: 100%;
+margin-bottom: 0;
+display: flex;
+justify-content: space-between;
 }
 
 .mailinform .mailwrapper .form-item input {
@@ -164,41 +204,23 @@ padding-right: 12px;
     border: none;
 }
 input, textarea, select {
-    display: block;
     width: 100%;
     font-family: inherit;
-    
+    vertical-align: middle;
     font-size: 16px;
     font-weight: normal;
     height: 45px;
-    background-color: #fff;
-    border: 1px solid rgba(17,17,19,0.1);
+   
     border-radius: 0;
-    box-shadow: none;
+   
     padding: 0 8px;
     color: rgba(17,17,19,0.8);
-}
-.footer-mailchimp .mailchimp-wrapper input[type="submit"] {
-    opacity: 0;
-    -webkit-transition: opacity .35s ease-in-out;
-    -moz-transition: opacity .35s ease-in-out;
-    -ms-transition: opacity .35s ease-in-out;
-    -o-transition: opacity .35s ease-in-out;
-    transition: opacity .35s ease-in-out;
-    font-size: 16px;
-    color: #003cff;
-    font-weight: 400;
-    border-bottom: 2px solid #fff;
-    background: none;
-    border: none;
-    padding: 0;
-    display: inline-block;
-    width: auto;
 }
 
 
 #top{
 position: fixed;
+color: #000;
 display: none;
 bottom: 50px;
 left: calc(50% - 55px);
@@ -210,7 +232,93 @@ margin-top: 40rem;
 
 
 }
-#top a{
-    text-decoration: none;
+#top:hover{
+    color:#003cff;
+    border-bottom: 2px solid #003cff !important;
+}
+input[type='submit']{
+    transition: opacity .35s ease-in-out;
+font-size: 16px;
+color: #003cff;
+font-weight: 400;
+padding: 0;
+display: inline-block;
+width: auto;
+visibility: hidden;
 }
 
+#instagram{
+    align-items: flex-end;
+display: flex;
+flex-wrap: wrap;
+
+width: 60rem;
+margin: 0 auto;
+max-width: 100%;
+margin-bottom: 2rem;
+
+
+}
+#instagram .ispushright{
+    font-weight: 100;
+}
+.ispushright{
+    float: right;
+}
+#instagram a:hover{
+    color: #003cff;
+    cursor: pointer;
+}
+#instagram a{
+    text-decoration: none;
+    color: #000;
+}
+
+.fotos{
+ margin-left: 1.2rem;
+ margin-right: 0;
+ display: flex;
+
+}
+
+
+
+
+.foto img{
+    width: 175px;
+    height: 175px;
+}
+.footerlegaal{
+    width: 60rem;
+margin: 0 auto;
+max-width: 100%;
+}
+.issmaller{
+    font-size: 14px;
+}
+.footerlegaal a{
+    text-decoration: none;
+    color: #000;
+}
+.footerlegaal a:hover{
+    color: #003cff;
+}
+
+
+.Biography {
+    font-size: 15px;
+}
+.textaligncenter{
+    text-align: center;
+    padding-top: 5rem;
+    padding-left:  16rem;
+    padding-right: 16rem;
+
+    
+}
+
+.video{
+   margin: auto;
+   width: 1045px;
+   height: 532px;
+}

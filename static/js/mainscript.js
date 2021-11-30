@@ -18,3 +18,16 @@ function topFunction(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+document.addEventListener("click",function(evt){
+  var flyoutElement=document.getElementById('mail');
+  let targetElement = evt.target;
+  do{
+    if (targetElement==flyoutElement){
+      document.getElementById('subscribe').style.visibility= "visible"
+      return;
+    }
+    targetElement = targetElement.parentNode;
+  }while(targetElement);
+  document.getElementById('subscribe').style.visibility="hidden"
+})

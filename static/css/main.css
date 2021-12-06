@@ -12,16 +12,13 @@ body{
     line-height: 1.5;
     font-weight: 300;
 }
-p{
-    font-size: 20px;
-}
 h1,h2,h3,h4,h5,h6{
     font-family: "Moderat","Roboto","Segoe UI",Helvetica,Arial,sans-serif;
-font-weight: 200;
-text-rendering: optimizeLegibility;
-font-size: 20;
-color: #000;
-line-height: 1.2;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+    font-size: 20;
+    color: #000;
+    line-height: 1.2;
 }
 footer{
     background-color:#e6e6e6;
@@ -39,24 +36,18 @@ iframe{
     background-color: #fff;
     padding-bottom: 40px;
     min-height: 100vh;
-    width: 60rem;
-    margin: 0 auto;
-    max-width: 100%;
    }
-
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 5rem;
-    
-
+    padding: 1rem;
 }
 .containerflex{
     padding-left: 1rem;
     padding-right: 1rem;
     box-sizing: border-box;
-       width: 60rem;
+       width: 71rem;
     margin: 0 auto;
     max-width: 100%;
 }
@@ -65,11 +56,8 @@ iframe{
     background: transparent;
 }
 #header .container{
-    
-        align-items: center;
+    align-items: center;
 }
-
-
 .navigatie {
     min-width: calc(66.6666% - 100px);
     flex: 1;
@@ -80,7 +68,6 @@ iframe{
     margin-bottom: 0;
     list-style: none;
 }
-
 .navigatie a{
     font-weight: 400;
     text-decoration: none;
@@ -93,24 +80,21 @@ iframe{
     color: #003cff;
     text-decoration: underline;
 }
- 
 .logo{
     min-width: calc(33.3333% - 100px);
     background-color:transparent;
     flex: 1;
-margin-left: 100px;
+    margin-left: 100px;
 }
-
-
 .logo h1{
     font-family: "Moderat","Roboto","Segoe UI",Helvetica,Arial,sans-serif;
-font-weight: 400;
-text-rendering: optimizeLegibility;
-color: #000;
-line-height: 1.2;
-height: 67.2px;
-width: 117.6px;
-display: block;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    color: #000;
+    line-height: 1.2;
+    height: 67.2px;
+    width: 117.6px;
+    display: block;
 }
 .logo a{
     text-decoration: none;
@@ -124,56 +108,43 @@ display: block;
     width: 117.6px;
     box-sizing: inherit;
 }
-
-
-
-
-
-
-
 .pagina-footer{
-    
     padding-bottom: 60px;
     border-top: 1px solid #e6e6e6;
-
 }
 .footer-socialmedia {
     padding: 48px 0px;
     background: #fff;
    margin-left: 15rem;
- 
-
 }
-
 .svg{
-    width: 20px;
-    padding-left: 0.5rem;
-    
+    width: 50px;
+    padding-left: 1rem;  
 }
 #socialbg{
     background-color: #fff;
 }
-
 .sociallink{
-max-width: 20px;
-font-size: 12px;
-text-align: center;
-margin-left: 4rem;
-margin-right: 4rem;
-text-decoration: none;
+    max-width: 20px;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 5rem;
+    margin-right: 4rem;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #000;
 }
-
 .sociallink:hover{
     text-decoration: none;
     filter: invert(16%) sepia(100%) saturate(7491%) hue-rotate(233deg) brightness(102%) contrast(107%);
 }
 .isrow{
     display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin-left: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
 }
-
 .gapless{
     margin-left: 0;
     margin-top: 0;
@@ -183,22 +154,16 @@ margin-left: 20px;
     margin-left: 7rem;
  
 }
-
 .mailwrapper{
     border: 1px solid rgba(0,0,0,0.2);
 display: flex;
 align-items: center;
 padding-right: 12px;
 }
-
-
 .form-item{
-    width: 100%;
-margin-bottom: 0;
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
-
 .mailinform .mailwrapper .form-item input {
     background: none;
     border: none;
@@ -216,51 +181,30 @@ input, textarea, select {
     padding: 0 8px;
     color: rgba(17,17,19,0.8);
 }
-
-
-#top{
-position: fixed;
-color: #000;
-display: none;
-bottom: 50px;
-left: calc(50% - 55px);
-z-index: 600;
-font-size: 120%;
-border-bottom: 2px solid black;
-text-decoration: none;
-margin-top: 40rem;
-
-
-}
 #top:hover{
     color:#003cff;
     border-bottom: 2px solid #003cff !important;
 }
 input[type='submit']{
     transition: opacity .35s ease-in-out;
-font-size: 16px;
-color: #003cff;
-font-weight: 400;
-padding: 0;
-display: inline-block;
-width: auto;
-visibility: hidden;
+    font-size: 16px;
+    color: #003cff;
+    font-weight: 400;
+    padding: 0;
+    display: inline-block;
+    width: auto;
 }
-
 #instagram{
     align-items: flex-end;
-display: flex;
-flex-wrap: wrap;
-
-width: 60rem;
-margin: 0 auto;
-max-width: 100%;
-margin-bottom: 2rem;
-
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 60rem;
+    margin: 0 auto;
+    max-width: 100%;
 }
 #instagram .ispushright{
     font-weight: 100;
+    margin-left: 5rem;
 }
 .ispushright{
     float: right;
@@ -273,25 +217,20 @@ margin-bottom: 2rem;
     text-decoration: none;
     color: #000;
 }
-
 .fotos{
- margin-left: 1.2rem;
+ margin-left: 10rem;
  margin-right: 0;
  display: flex;
-
 }
 
-
-
-
 .foto img{
-    width: 175px;
-    height: 175px;
+    width: 6rem;
+    height: 6rem;
 }
 .footerlegaal{
     width: 60rem;
-margin: 0 auto;
-max-width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
 }
 .issmaller{
     font-size: 14px;
@@ -304,21 +243,16 @@ max-width: 100%;
     color: #003cff;
 }
 
-
-.Biography {
-    font-size: 15px;
-}
-.textaligncenter{
-    text-align: center;
-    padding-top: 5rem;
-    padding-left:  16rem;
-    padding-right: 16rem;
-
-    
-}
-
-.video{
-   margin: auto;
-   width: 1045px;
-   height: 532px;
+#top{
+    position: fixed;
+    color: #000;
+    display: none;
+    bottom: 50px;
+    left: calc(50% - 55px);
+    z-index: 600;
+    font-size: 120%;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    margin-top: 40rem;
+    background: linear-gradient(183deg, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%); 
 }

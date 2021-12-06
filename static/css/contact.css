@@ -1,0 +1,77 @@
+.intouch{
+    padding-left: 4rem;
+    padding-right: 20rem;
+   
+}
+.intouch h1{
+    font-weight: 500;
+}
+.intouch p{
+    font-size: 28px;
+}
+
+.contact{
+    display: flex;
+    margin: 1rem;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 2rem;
+    
+}
+.contactatelier{
+    padding-left: 2rem;
+   padding-right: 4rem;
+   
+
+}
+.contact a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.contact a:hover{
+    color:#003cff;
+    border-bottom: 2px solid #003cff !important;
+}
+
+.contact p{
+font-size: 15px;
+margin-left: 2rem;
+color: #888888;
+padding-bottom: 1rem;
+}
+.form{
+    width: 15rem;
+}
+.form textarea{
+    resize: vertical;
+    margin-bottom: 1rem;
+}
+.form input{
+
+   margin:.4rem;
+}
+.form{
+    font-size: 15px;
+}
+.checkbox{
+    margin-top: 5px;
+    width: 15px;
+        height: 15px;
+        margin-right: 5px;
+
+       
+
+}
+label{
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+#question{
+    margin-right: 15rem;
+    padding: 15px;
+    color: #000;
+}
